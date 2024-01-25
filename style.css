@@ -1,0 +1,1128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main div */
+
+.container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 1)), url("assets/bmw1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    fill: white;
+}
+
+.nav-items ul li {
+    padding: 20px 12px 20px 12px;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+
+.fa-solid1:after{
+    content: "";
+    position: absolute;
+    background-color: #1C69D4;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -26px;
+}
+
+.fa-solid1:hover:after {
+    width: 100%;
+}
+
+/* main div text */
+
+.main-div-text {
+    padding: 50px 50px;
+    margin-top: 50px;
+}
+
+.main-div-text p{
+    margin-bottom: 5px;
+}
+
+.main-txt1{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.main-txt2{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.main-div-text button{
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #1C69D4;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.main-div-text button:hover {
+    background-color: #114da0;
+    cursor: pointer;
+}
+
+.bmlogo{
+    padding: 15px 0px;
+}
+
+.nav-line{
+    padding-top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.nav-line {
+    height: 0.5px;
+    background-color: white;
+    padding: 0;
+    margin-left: 50px;
+    width: 905px;
+}
+
+.nav-items1-ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nav-items1-ul a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+    position: relative;
+    
+}
+
+.nav-items1-ul a:after{
+    content: "";
+    position: absolute;
+    background-color: #1C69D4;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -26px;
+}
+
+.nav-items1-ul a:hover:after {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+}
+
+.sheer {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.pleasure {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+/* second div */
+
+.sec-div {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.5)), url("assets/x5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.sec-div-text {
+    padding: 100px 50px 50px 50px;
+}
+
+.sec-div-text p{
+    margin-bottom: 5px;
+}
+
+.sec-txt1{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.sec-txt2{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.btn-1{
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #1C69D4;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background-color: #114da0;
+    cursor: pointer;
+}
+
+.btn-2{
+    text-decoration: none;
+    border: 1px solid white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+}
+
+
+
+/* shopping tools div */
+
+
+.shopping-tools-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.find-bmw-text{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.shopping-tools-div p{
+    color: black;
+}
+
+.shopping-tools-div i{
+    color: black;
+}
+
+.shopping-text{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+.fa-car-rear{
+    font-size: 6vh;
+}
+
+.card p{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.card button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card button:hover{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* 7 series div */
+
+.seven-series{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 1)), url("assets/bmw7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.seven-series p{
+    color: white;
+}
+
+
+.seven-text {
+    padding: 100px 50px 50px 50px;
+}
+
+.seven-text p{
+    margin-bottom: 5px;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.seven-btn-1{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* article section */
+
+.article-div{
+    padding: 20px 50px 20px 50px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.article-texts {
+    margin-top: 30px;
+}
+
+.article-texts p {
+    color: black;
+    margin-bottom: 12px;
+}
+
+.article-txt1 {
+    font-size: 12px;
+    color: gray;
+}
+
+.article-txt2 {
+    font-size: 33px;
+    font-weight: 200;
+}
+
+.article-txt3 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.article-texts button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* ariticle div 2 */
+
+.article2-div{
+    padding: 20px 50px 20px 50px;
+}
+
+.article2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article2-img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.article2-texts {
+    margin-top: 30px;
+}
+
+.article2-texts p {
+    color: black;
+    margin-bottom: 12px;
+}
+
+.article2-txt1 {
+    font-size: 12px;
+    color: gray;
+}
+
+.article2-txt2 {
+    font-size: 33px;
+    font-weight: 200;
+}
+
+.article2-txt3 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.article2-texts button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+hr {
+    margin-bottom: 20px;
+ 
+    border-top: 0.25px solid #F6F6F6;
+}
+
+
+/* second last div */
+
+.second-last p {
+    margin-left: 50px;
+    color: #505250;
+    font-weight: 100;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.second-last a{
+    margin-left: 30px;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* final links div */
+
+.final-links-div{
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.final-links{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.final-links a{
+    color: rgb(58, 58, 58);
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+.final-links a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.links ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.links li{
+    color: #505250;
+    font-weight: 100;
+    font-size: 8px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-right: 100px;
+}
+
+/* social media icons */
+
+.icons {
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.icons i{
+    color: rgb(58, 58, 58);
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+
+/* footer section */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.copyright{
+    color: #505250;
+    font-weight: 100;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-right: 100px;
+}
+
+.footer p{
+    color: #505250;
+}
+
+.footer a{
+    color: rgb(58, 58, 58);
+    font-size: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin-right: 25px;
+}
+
+.footer a:hover {
+    color: #ff0000;
+    transition: 0.2s;
+}
+
+.footer-links{
+    display: flex;
+}
+
+/* Responsive Design */
+
+/* phone size */
+
+@media screen and (max-width: 340px) {
+
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .fa-solid{
+        color: white;
+        font-size: 10px;
+    }
+
+    .location{
+        display: none;
+    }
+
+    .main-div-text{
+        text-align: center;
+    }
+
+    .main-div-text button{
+        width: 100%;
+    }
+
+    .main-div-part2{
+        text-align: center;
+    }
+
+    .nav-items1-ul {
+        display: none;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .sheer {
+        display: none;
+    }
+
+    .pleasure {
+        display: none;
+    }
+
+    /* second div */
+
+    .sec-div-text button{
+        width: 100%;
+    }
+
+    /* shopping tools */
+
+    .card button{
+        width: 100%;
+    }
+
+    .card{
+        margin-bottom: 40px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 100%;
+    }
+
+    .seven-text {
+        text-align: center;
+    }
+
+    /* article section */
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-img img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .article-div{
+        padding: 20px;
+    }
+
+    .article-txt2 {
+        font-size: 26px;
+        font-weight: 200;
+    }
+
+    .article-texts button{
+        width: 100%;
+    }
+
+    .article-texts p {
+        color: black;
+        margin-bottom: 8px;
+    }
+
+    /* article section 2 */
+
+    .article2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article2-img img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .article2-div{
+        padding: 20px;
+    }
+
+    .article2-txt2 {
+        font-size: 26px;
+        font-weight: 200;
+    }
+
+    .article2-texts button{
+        width: 100%;
+    }
+
+    .article2-texts p {
+        color: black;
+        margin-bottom: 8px;
+    }
+
+    /* second last div */
+
+    
+    .second-last {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links ul li a{
+        display: none;
+        
+    }
+
+    .final-links ul li{
+        color: rgb(58, 58, 58);
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .final-links ul li:hover{
+        cursor: pointer;
+        color: rgb(109, 109, 255);
+    }
+
+    .final-links {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    
+    .second-last p {
+        margin-left: 30px;
+    }
+
+    .second-last a{
+        margin-left: 30px;
+    }
+
+    /* footer section */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .footer a{
+        font-size: 8px;
+        margin-right: 10px;
+    }
+
+    .copyright{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+/* tablet size */
+
+@media screen and (min-width:341px) and (max-width:768px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-div-text button{
+        width: 100%;
+    }
+
+    .main-div-part2{
+        text-align: center;
+    }
+
+    .nav-items1-ul {
+        display: none;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .sheer {
+        display: none;
+    }
+
+    .pleasure {
+        display: none;
+    }
+
+    /* second div */
+
+    .sec-div-text{
+        text-align: center;
+    }
+
+    .sec-div-text button{
+        width: 100%;
+    }
+
+    /* shopping tools */
+
+    .card button{
+        width: 50vh;
+    }
+
+    .card{
+        margin-bottom: 40px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 50vh;
+    }
+
+    .seven-text {
+        text-align: center;
+    }
+
+    /* article section */
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .article-img img{
+        width: 100%;
+    }
+
+    .article-div{
+        padding: 50px 20px 50px 20px;
+    }
+
+    .article-txt2 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .article-texts button{
+        width: 70%;
+    }
+
+    .article-texts p {
+        color: black;
+        margin-bottom: 8px;
+    }
+
+    /* article section 2 */
+
+    .article2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .article2-img img{
+        width: 100%;
+    }
+
+    .article2-div{
+        padding: 0px 20px 50px 20px;
+    }
+
+    .article2-txt2 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .article2-texts button{
+        width: 70%;
+    }
+
+    .article2-texts p {
+        color: black;
+        margin-bottom: 8px;
+    }
+
+        /* second last div */
+
+    
+    .second-last {
+        display: flex;
+    }
+
+    .final-links {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 50px;
+    }
+
+
+}
+
+
+/* desktop */
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 35px;
+        height: 35px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .shopping-tools-div{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 200px;
+    }
+
+
+    .article-img img{
+        width: 100%;
+    }
+
+    .article2-img img{
+        width: 100%;
+    }
+
+        /* second last div */
+
+    
+    .second-last {
+        display: flex;
+    }
+
+    /* final links div */
+
+    .final-links {
+        padding-top: 50px;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    /* menu icons */
+
+    .nav-items{
+        position: absolute;
+        right: 50px;
+    }
+}
+
+
+/* 
+testing.......... */
+
+
+
+.nav-menu {
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 12px;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+label #btn, label #cancel{
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .menu-bar-div ul a{
+        text-decoration: none;
+    }
+
+    .nav-items{
+        margin-left: 100px;
+    }
+    
+
+    label #btn{
+        display: block;
+        font-size: 12px;
+        margin-top: 24px;
+        margin-left: 8px;
+    }
+
+    .fa-solid1{
+        font-size: 12px;
+    }
+
+    label #cancel{
+        font-size: 12px;
+        margin-top: 24px;
+        margin-left: 8px;
+    }
+
+    .menu-bar ul {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        top: 80px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #check:checked ~ ul{
+        right: 0;
+    }
+
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+
+    .nav-menu {
+
+        top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu-bar ul li{
+        display: block;
+    }
+}
+
+@media screen and (min-width:341px) and (max-width:768px) {
+
+    .menu-bar-div ul a{
+        text-decoration: none;
+    }
+
+    .nav-items{
+        margin-left: 300px;
+    }
+    
+
+    label #btn{
+        display: block;
+        font-size: 12px;
+        margin-top: 24px;
+        margin-left: 8px;
+    }
+
+    .fa-solid1{
+        font-size: 12px;
+    }
+
+    label #cancel{
+        font-size: 12px;
+        margin-top: 24px;
+        margin-left: 8px;
+    }
+
+    .menu-bar ul {
+        
+        width: 100%;
+        height: 70vh;
+        top: 80px;
+        right: -200%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #check:checked ~ ul{
+        right: 0;
+    }
+
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu-bar ul li{
+        display: block;
+    }
+
+    .nav-items{
+        position: absolute;
+        right: 50px;
+    }
+
+}
+
